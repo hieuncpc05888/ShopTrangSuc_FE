@@ -1,0 +1,47 @@
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; 
+  }
+  
+  .contact-heading {
+    color: black;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .contact-heading:hover {
+    color: red;
+  }
+  
+  .contact-map {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .contact-card {
+    background-color: black;
+    color: white;
+    padding: 20px; 
+    border-radius: 8px; 
+  }
+  
+  .contact-button {
+    background-color: #FFA500;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 5px; 
+    width: 100%; 
+  }
+  
+  .contact-button:hover {
+    background-color: #FF8C00;
+  }
+  
+  .contact-container .form-label {
+    font-weight: bold;
+  }
